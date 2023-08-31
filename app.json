@@ -8,6 +8,26 @@
       "expo-router"
     ],
     "name": "JobsSearch",
-    "slug": "JobsSearch"
+    "slug": "JobsSearch",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "177ef433-ad61-43b2-bd8a-fed73d94e06f"
+      }
+    },
+    "android": {
+      "package": "com.iamfitsum.JobsSearch"
+    },
+    "ios": {
+      "bundleIdentifier": "com.iamfitsum.JobsSearch"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/177ef433-ad61-43b2-bd8a-fed73d94e06f"
+    }
   }
 }
